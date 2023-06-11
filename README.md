@@ -5,7 +5,8 @@
 This web application uses the ACID (Algorithm developers for Critical and Intensive care Datathon) model for predicting weaning failure in intensive care patients. The model takes into consideration various patient data like I:E ratio, P/F ratio, PetCO2/PaCO2 ratio, lowest Hb, Mechanical Power to Ideal Body Weight (MP/IBW) ratio, and Gender. The prediction results are displayed both in text and graphically as a pie chart.
 
 The ACID model was trained using the Extra Trees Classifier algorithm on data from the AmsterdamUMCdb, a large medical database.
-Installation Guide
+
+## Installation Guide
 
     Clone this repository.
     Make sure you have Python and the necessary dependencies installed. You can do this by running pip install -r requirements.txt.
