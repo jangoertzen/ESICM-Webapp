@@ -125,7 +125,9 @@
                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                     data-bs-parent="#infoAccordion">
                     <div class="accordion-body">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                        This model is intended for demonstration purposes only and should not be used as a decision-making tool for patient care. Please note that it is not certified according to the German Medical Devices Act and therefore, is not intended for diagnosis, prevention, monitoring, prediction, prognosis, treatment or alleviation of disease.
+                        The algorithm used by this model is based on a predictive model developed for the European Society of Intensive Care Medicine (ESICM) datathon.
+                        For more detailed information, please refer to the <a href="https://tinyurl.com/2cnx6ke6" target="_blank">published abstract</a>. The source code of this model is available on <a href="https://github.com/jangoertzen/ESICM-Webapp" target="_blank">GitHub</a>.
                     </div>
                 </div>
             </div>
@@ -139,7 +141,12 @@
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                     data-bs-parent="#infoAccordion">
                     <div class="accordion-body">
-                        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                        The ACID model was trained using the Extra Trees Classifier algorithm on data from the AmsterdamUMCdb, a large medical database. It may provide information on the likelihood of weaning failure (reintubation within 24 hours after extubation) in ICU patients.
+                        The following restrictions apply:
+                         - The model was only trained on adult, pressure controlled ventilated patients.
+                         - The model performs poorly when one or more of the parameters are missing.
+                         - The model may throw errors if the input fields are filled out with unexpected values.
+                        Here are some details about model performance: Accuracy 0.98; recall 0.83; f1-Score 0.89; Precision 0.95, MCC 0.88
                     </div>
                 </div>
             </div>
